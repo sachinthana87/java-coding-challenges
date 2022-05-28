@@ -1,4 +1,4 @@
-package org.example;
+package com.challages;
 
 /**
  * Hello world!
@@ -6,9 +6,9 @@ package org.example;
  */
 public class ShortestPalindrome
 {
-    static boolean isPalindrome(String s) {
+    static boolean isPalindrome(String x) {
         boolean result = true;
-        char[] arr = s.toCharArray();
+        char[] arr = x.toCharArray();
         for (int i = 0; i < arr.length / 2; i++) {
             if(arr[i] != arr[arr.length - 1 - i]) result = false;
         }

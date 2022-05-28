@@ -1,4 +1,4 @@
-package org.example;
+package com.challages;
 
 
 public class Chocolates {
